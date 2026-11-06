@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="fr"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Inscription – ALPIN-TRAIL</title><link rel="icon" href="images/favicon.svg"><link rel="stylesheet" href="style.css"></head><body>
+<header><div class="barre"><a class="logo" href="index.html"><img src="images/favicon.svg" alt="">ALPIN-TRAIL</a>
+<nav aria-label="Menu principal"><ul>
+<li><a href="index.html">Présentation</a></li>
+<li><a href="evenement.html">L'évènement</a></li>
+<li><a href="programme.html">Programme</a></li>
+<li><a href="infos.html">Infos pratiques</a></li>
+<li><a href="inscription.html" class="actif">Inscription</a></li></ul></nav></div></header>
+<section class="hero petit"><div><h1>Inscription</h1><p>Réservez votre place : 400 dossards disponibles, 35 € jusqu'au 30 juin 2027.</p></div></section>
+<main>
+<form action="#" method="post">
+<div class="ligne"><div><label for="nom">Nom</label><input id="nom" name="nom" required></div><div><label for="prenom">Prénom</label><input id="prenom" name="prenom" required></div></div>
+<div class="ligne"><div><label for="naissance">Date de naissance</label><input type="date" id="naissance" name="naissance" required></div>
+<div><label for="sexe">Catégorie</label><select id="sexe" name="sexe"><option>Femme</option><option>Homme</option><option>Non précisé</option></select></div></div>
+<div class="ligne"><div><label for="email">Adresse e-mail</label><input type="email" id="email" name="email" required></div><div><label for="tel">Téléphone</label><input type="tel" id="tel" name="tel"></div></div>
+<label for="club">Club (facultatif)</label><input id="club" name="club">
+<label for="taille">Taille de T-shirt</label><select id="taille" name="taille"><option>S</option><option>M</option><option>L</option><option>XL</option></select>
+<fieldset><legend>Options</legend><label><input type="radio" name="repas" value="oui" checked>Repas des finishers (+12 €)</label><label><input type="radio" name="repas" value="non">Sans repas</label></fieldset>
+<label for="certif">Certificat médical ou licence</label><input type="file" id="certif" name="certif">
+<label for="msg">Message</label><textarea id="msg" name="msg" rows="4"></textarea>
+<label><input type="checkbox" required>J'accepte le règlement de l'ALPIN-TRAIL</label>
+<p><button class="bouton" type="submit">Valider mon inscription</button></p></form>
+</main><footer>ALPIN-TRAIL – projet pédagogique de Yoann CHARLES – Master 2 MELS-CP, Université Paris Nanterre. Évènement fictif.</footer></body></html>
